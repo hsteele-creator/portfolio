@@ -2,17 +2,39 @@
     width: 100vw;
     height: 700px;
     color: white;
-}
-
-
-#main-heading {
-    margin: 0;
-    font-size: 90px;
-    max-width: 600px;
-    padding: 150px 100px 0 100px;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
 }
 
 #main-text {
-    padding: 0 100px;
+    width: 50%;
+}
+
+#main-heading {
+    font-size: 90px;
+    margin: 0;
+}
+
+#main-text {
     font-size: 22px;
+}
+
+#main-btn {
+    padding: 12px;
+    background-color: #011726;
+    border: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+#main-btn:hover {
+    cursor: pointer;
+}
+
+#main-other {
+    width: 50%;
+    height: 100%;
 }
