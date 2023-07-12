@@ -43,8 +43,8 @@
 }
 
 #main-img {
-    width: 100%;
-    border-radius: 6px;
+    width: 600px;
+    border-radius: 12px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -57,6 +57,10 @@
         width: 90%;
         margin: 0 auto;
         padding: 20px 0;
+    }
+
+    #main-img {
+        width: 100%;
     }
 
     #main-other {
