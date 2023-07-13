@@ -1,11 +1,29 @@
 import React from "react";
 import "./Main.css";
 import navy from "./Images/navy.jpg";
-import developer from "./Images/developer.jpg"
+import developer from "./Images/developer.jpg";
+import linkedin from "./Images/linkedin.png";
+import github from "./Images/github.png";
+import home from "./Images/home.png";
 
 const Main = () => {
   return (
     <>
+      <div id="links-container">
+        <a href="/" target="_blank">
+          <img className="nav-img" src={home} />
+        </a>
+
+        <div>
+          <a href="https://www.linkedin.com/in/harry-b-steele/" target="_blank">
+            <img className="nav-img" src={linkedin} />
+          </a>
+          <a href="https://github.com/hsteele-creator" target="_blank">
+            <img className="nav-img" src={github} />
+          </a>
+        </div>
+      </div>
+
       <div
         id="main"
         style={{
@@ -23,7 +41,7 @@ const Main = () => {
           <button id="main-btn">View My Projects</button>
         </div>
         <div id="main-other">
-            <img id="main-img" src={developer} />
+          <img id="main-img" src={developer} />
         </div>
       </div>
     </>
