@@ -3,6 +3,7 @@ import "./Projects.css";
 import ProjectData from "./ProjectData";
 import ProjectCard from "./ProjectCard";
 
+
 const Projects = () => {
   return (
     <>
@@ -19,7 +20,6 @@ const Projects = () => {
           );
         })}
       </div>
-
     </>
   );
 };
