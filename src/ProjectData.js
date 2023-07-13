@@ -23,13 +23,13 @@ const ProjectData = [
         skills : ["Javascript", "React", "Redux"],
         link : "https://react-grocery-store-ten.vercel.app",
     },
-    {
-        image : todolist,
-        name : "Todo List",
-        description : "",
-        skills : ["Javascript", "React", "Redux"],
-        link : "https://redux-todo-list-iota.vercel.app",
-    },
+    // {
+    //     image : todolist,
+    //     name : "Todo List",
+    //     description : "",
+    //     skills : ["Javascript", "React", "Redux"],
+    //     link : "https://redux-todo-list-iota.vercel.app",
+    // },
     {
         image : memegenerator,
         name : "Meme Generator",

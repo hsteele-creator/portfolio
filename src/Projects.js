@@ -2,7 +2,6 @@ import React from "react";
 import "./Projects.css";
 import ProjectData from "./ProjectData";
 import ProjectCard from "./ProjectCard";
-console.log(ProjectData);
 
 const Projects = () => {
   return (
@@ -20,6 +19,7 @@ const Projects = () => {
           );
         })}
       </div>
+
     </>
   );
 };

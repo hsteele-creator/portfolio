@@ -38,7 +38,7 @@ const Main = () => {
           <p id="main-subtext">
             I am a frontend developer, specializing in React and Redux.
           </p>
-          <button id="main-btn">View My Projects</button>
+          <a href="#projects-container"><button id="main-btn">View My Projects</button></a>
         </div>
         <div id="main-other">
           <img id="main-img" src={developer} />
