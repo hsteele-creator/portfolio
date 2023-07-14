@@ -34,7 +34,7 @@
     font-size: 22px;
 }
 
-#main-btn {
+.main-btn {
     padding: 12px;
     background-color: #011726;
     border: none;
@@ -42,9 +42,11 @@
     border: 1px solid white;
     border-radius: 6px;
     margin-top: 10px;
+    margin-right: 10px;
+    width: 130px;
 }
 
-#main-btn:hover {
+.main-btn:hover {
     cursor: pointer;
 }
 
