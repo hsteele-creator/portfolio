@@ -5,8 +5,14 @@ import developer from "./Images/developer.jpg";
 import linkedin from "./Images/linkedin.png";
 import github from "./Images/github.png";
 import home from "./Images/home.png";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const Main = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <>
       <div id="links-container">
@@ -33,7 +39,7 @@ const Main = () => {
           backgroundRepeat: "no-repeat",
         }}
       >
-        <div id="main-text">
+        <div id="main-text" data-aos="fade-right">
           <h1 id="main-heading">Hi! My Name is Harry Steele</h1>
           <p id="main-subtext">
             I am a frontend developer, specializing in React and Redux.
@@ -47,7 +53,7 @@ const Main = () => {
             </a>
           </div>
         </div>
-        <div id="main-other">
+        <div id="main-other" data-aos="fade-left">
           <img id="main-img" src={developer} />
         </div>
       </div>
