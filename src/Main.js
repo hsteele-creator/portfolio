@@ -16,7 +16,7 @@ const Main = () => {
   return (
     <>
       <div id="links-container">
-        <a href="/" target="_blank">
+        <a href="/">
           <img className="nav-img" src={home} />
         </a>
 
